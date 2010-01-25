@@ -1,0 +1,212 @@
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 16:40:12) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: test):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HelloController#test (for 127.0.0.1 at 2010-01-21 16:40:16) [GET]
+Rendering hello/test
+Completed in 44ms (View: 35, DB: 0) | 200 OK [http://localhost/hello/test]
+
+
+Processing HelloController#test (for 127.0.0.1 at 2010-01-21 16:42:09) [GET]
+Rendering hello/test
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/hello/test]
+
+
+Processing HelloController#test (for 127.0.0.1 at 2010-01-21 16:42:31) [GET]
+Rendering hello/test
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/hello/test]
+
+
+Processing HelloController#show (for 127.0.0.1 at 2010-01-21 16:44:07) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/show]
+
+
+Processing HelloController#show (for 127.0.0.1 at 2010-01-21 16:44:34) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/hello/show]
+
+
+Processing HelloController#show (for 127.0.0.1 at 2010-01-21 16:45:52) [GET]
+Rendering hello/show
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/hello/show]
+
+
+Processing HelloController#show (for 127.0.0.1 at 2010-01-21 16:46:24) [GET]
+  Parameters: {"id"=>"1", "another_key"=>"fuck", "key"=>"value"}
+Rendering hello/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/hello/show/1?key=value&another_key=fuck]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:42:06) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:43:31) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:43:32) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:43:32) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:44:14) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:44:15) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:44:15) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:44:17) [GET]
+
+ActionView::MissingTemplate (Missing template hello/index.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:44:36) [GET]
+Rendering hello/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/hello/index]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:45:10) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/hello/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-21 17:45:12) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/hello/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2010-01-25 15:20:59) [GET]
+Rendering hello/index
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#show (for 127.0.0.1 at 2010-01-25 15:21:03) [GET]
+Rendering hello/show
+Completed in 42ms (View: 40, DB: 0) | 200 OK [http://localhost/hello/show]
